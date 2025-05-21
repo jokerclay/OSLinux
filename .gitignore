@@ -771,3 +771,8 @@ FodyWeavers.xsd
 
 
 objs/
+
+
+# Unignore all with extensions
+!*.*
+
