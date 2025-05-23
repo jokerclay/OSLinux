@@ -1,4 +1,3 @@
----
 
 ## 🧩 调度算法列表和目标
 
@@ -12,7 +11,6 @@
 | `multi-level_queue_scheduling_algorithm.c`            | 多级队列调度                        | 不同类型进程放入不同优先级队列中  |
 | `multi-level_feedback_queue_scheduling_algorithm.c`   | 多级反馈队列调度                      | 支持进程动态“上下移动”调度队列  |
 
----
 
 ## ✅ 学习顺序（由浅入深）
 
@@ -24,7 +22,6 @@
 6. Multi-Level Queue
 7. Multi-Level Feedback Queue
 
----
 
 ## ✅ 每种算法我们会：
 
@@ -34,7 +31,6 @@
 4. 输出调度过程和平均等待时间、周转时间等指标
 5. 可选：加上 Gantt 图输出
 
----
 
 ### 🔨 准备工作：统一进程结构（以便多算法复用）
 
@@ -51,6 +47,3 @@ typedef struct {
     int started;
 } Process;
 ```
-
----
-
